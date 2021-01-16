@@ -23,7 +23,7 @@ This is a template to customize with container "Jackett".&#xD;
 4) - After installation, we create a network, enter in the terminal: "docker network create container:openvpn-antizapret"&#xD;
 5) - And in the Settings of the "Jackett" container, we install this network.&#xD;
 </Overview>
-  <Category/>
+  <Category>Network:Proxy</Category>
   <WebUI/>
   <TemplateURL>https://github.com/Muwahhidun/unraid-docker-templates/blob/main/my-openvpn-antizapret.xml</TemplateURL>
   <Icon>https://github.com/Muwahhidun/logo/blob/main/vpnclientinside.png?raw=true</Icon>
