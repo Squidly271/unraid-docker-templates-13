@@ -23,7 +23,7 @@ The following are the main features.&#xD;
 - HD Calling quality.</Overview>
   <Category/>
   <WebUI>https://[IP]:[PORT:5533]</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://github.com/Muwahhidun/unraid-docker-templates/blob/main/my-trango.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/Muwahhidun/logo/main/trango%20logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
