@@ -25,7 +25,7 @@ This is a template to customize with container "Jackett".&#xD;
 </Overview>
   <Category/>
   <WebUI/>
-  <TemplateURL>https://github.com/Muwahhidun/unraid-docker-templates/blob/main/my-roundcube-ver-mysql.xml</TemplateURL>
+  <TemplateURL>https://github.com/Muwahhidun/unraid-docker-templates/blob/main/my-openvpn-antizapret.xml</TemplateURL>
   <Icon>https://github.com/Muwahhidun/logo/blob/main/vpnclientinside.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
