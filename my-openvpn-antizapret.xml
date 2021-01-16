@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>openvpn-antizapret</Name>
+  <Repository>dperson/openvpn-client</Repository>
+  <Registry>https://hub.docker.com/r/dperson/openvpn-client</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Support>https://myunraid.ru/</Support>
+  <Project>https://antizapret.prostovpn.org</Project>
+  <Overview>Proxy and VPN for Russia.&#xD;
+Only blocked sites from the unified register of the Russian Federation are proxied through Anti-Ban.&#xD;
+All other sites will work directly, the speed of the Internet connection will not decrease.&#xD;
+The service does not log user actions, does not change traffic and does not insert ads on pages.&#xD;
+Project page: https://antizapret.prostovpn.org&#xD;
+&#xD;
+[b][span style='color: #E80000;']Installation instructions:[/span][/b][br]&#xD;
+This is a template to customize with container "Jackett".&#xD;
+1) - Download a ZIP archive with a configuration file and keys here: "https://antizapret.prostovpn.org/antizapret-tcp.zip".&#xD;
+2) - Extract four files along the path: "/mnt/user/appdata/openvpn-antizapret/".&#xD;
+3) - Start installing, click to "Apply".&#xD;
+4) - After installation, we create a network, enter in the terminal: "docker network create container:openvpn-antizapret"&#xD;
+5) - And in the Settings of the "Jackett" container, we install this network.&#xD;
+</Overview>
+  <Category/>
+  <WebUI/>
+  <TemplateURL>https://github.com/Muwahhidun/unraid-docker-templates/blob/main/my-roundcube-ver-mysql.xml</TemplateURL>
+  <Icon>https://github.com/Muwahhidun/logo/blob/main/vpnclientinside.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1610831657</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Proxy and VPN for Russia.&#xD;
+Only blocked sites from the unified register of the Russian Federation are proxied through Anti-Ban.&#xD;
+All other sites will work directly, the speed of the Internet connection will not decrease.&#xD;
+The service does not log user actions, does not change traffic and does not insert ads on pages.&#xD;
+Project page: https://antizapret.prostovpn.org&#xD;
+&#xD;
+[b][span style='color: #E80000;']Installation instructions:[/span][/b][br]&#xD;
+This is a template to customize with container "Jackett".&#xD;
+1) - Download a ZIP archive with a configuration file and keys here: "https://antizapret.prostovpn.org/antizapret-tcp.zip".&#xD;
+2) - Extract four files along the path: "/mnt/user/appdata/openvpn-antizapret/".&#xD;
+3) - Start installing, click to "Apply".&#xD;
+4) - After installation, we create a network, enter in the terminal: "docker network create container:openvpn-antizapret"&#xD;
+5) - And in the Settings of the "Jackett" container, we install this network.&#xD;
+</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>9117</HostPort>
+        <ContainerPort>9117</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/openvpn-antizapret/</HostDir>
+      <ContainerDir>/vpn</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>192.168.104.1</Value>
+      <Name>DNS</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>true</Value>
+      <Name>Firewall</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>false</Value>
+      <Name>DEFAULT_GATEWAY</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="Location Config" Target="/vpn" Default="" Mode="rw" Description="Container Path: /vpn" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/openvpn-antizapret/</Config>
+  <Config Name="DNS" Target="DNS" Default="" Mode="" Description="Contaner Variable: DNS" Type="Variable" Display="always" Required="true" Mask="false">192.168.104.1</Config>
+  <Config Name="Firewall" Target="Firewall" Default="" Mode="" Description="Container Variable: Firewall" Type="Variable" Display="always" Required="true" Mask="false">true</Config>
+  <Config Name="DEFAULT_GATEWAY" Target="DEFAULT_GATEWAY" Default="" Mode="" Description="Contaner Variable: DEFAULT_GATEWAY" Type="Variable" Display="always" Required="true" Mask="false">false</Config>
+  <Config Name="Location tun" Target="" Default="" Mode="" Description="Container Device:" Type="Device" Display="always" Required="true" Mask="false">/dev/net/tun</Config>
+  <Config Name="Jackett port" Target="9117" Default="" Mode="tcp" Description="Container Port: 9117" Type="Port" Display="always" Required="false" Mask="false">9117</Config>
+</Container>
