@@ -12,7 +12,7 @@
   <Overview> The World's Most Advanced Open Source Relational Database. This is official latest image from dockerhub repository. </Overview>
   <Category>Network:Other MediaApp:Other Other: Tools:</Category>
   <WebUI/>
-  <TemplateURL>https://github.com/Muwahhidun/unraid-docker-templates/blob/main/my-postgres-official.</TemplateURL>
+  <TemplateURL>https://github.com/Muwahhidun/unraid-docker-templates/blob/main/my-postgres-official</TemplateURL>
   <Icon>https://github.com/Muwahhidun/logo/blob/main/PostgreSQL-logo.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
