@@ -12,7 +12,7 @@
   <Overview> The open source relational database. This is official latest image from dockerhub repository. </Overview>
   <Category>Network:Other MediaApp:Other Other: Tools:</Category>
   <WebUI/>
-  <TemplateURL/>
+  <TemplateURL>https://github.com/Muwahhidun/unraid-docker-templates/blob/main/my-mariadb-official.</TemplateURL>
   <Icon/>https://github.com/Muwahhidun/logo/blob/main/library-mariadb-logo.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
