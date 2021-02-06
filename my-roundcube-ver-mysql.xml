@@ -17,7 +17,7 @@
   <Category>Network: Web:</Category>
   <WebUI>http://[IP]:[PORT:1154]/</WebUI>
   <TemplateURL>https://github.com/Muwahhidun/unraid-docker-templates/blob/main/my-roundcube-ver-mysql.xml</TemplateURL>
-  <Icon>https://w7.pngwing.com/pngs/264/846/png-transparent-roundcube-webmail-email-mail-server-virtualmin-email-miscellaneous-logo-web-hosting-service-thumbnail.png</Icon>
+  <Icon>https://github.com/Muwahhidun/logo/blob/main/roundcube.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
