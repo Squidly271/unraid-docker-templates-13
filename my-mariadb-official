@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://myunraid.ru/</Support>
   <Project>https://mariadb.org/</Project>
-  <Overview> The open source relational database. This is official image from dockerhub repository. </Overview>
+  <Overview> The open source relational database. This is official latest image from dockerhub repository. </Overview>
   <Category>Network:Other MediaApp:Other Other: Tools:</Category>
   <WebUI/>
   <TemplateURL/>
