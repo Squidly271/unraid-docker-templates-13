@@ -21,7 +21,7 @@ Installation:&#xD;
 - Any improvement over Nextcloud?&#xD;
 "For now, one benefit of using Joplin Server, compared to Nextcloud or WebDAV in general, is that it is much faster and resource efficient."&#xD;
 https://discourse.joplinapp.org/t/joplin-server-pre-release-is-now-available/13605</Overview>
-  <Category/>
+  <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:8443]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Muwahhidun/unraid-docker-templates/main/my-wiznote.xml</TemplateURL>
   <Icon>https://github.com/Muwahhidun/logo/blob/main/joplin%20logo.png?raw=true</Icon>
