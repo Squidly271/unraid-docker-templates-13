@@ -13,9 +13,7 @@
   Restore examples:
   DB: nextcloud
   USER: muwahhid
-  ```bash
   zcat /mnt/user/Backups/Postgres/Backups/daily/nextcloud-20210218-235636.sql.gz | docker exec -i testsql psql --username=muwahhid --dbname=nextcloud -W
-  ```
   </Overview>
   <Category>Backup: Tools:</Category>
   <WebUI/>
@@ -31,9 +29,7 @@
   Restore examples:
   DB: nextcloud
   USER: muwahhid
-  ```bash
   zcat /mnt/user/Backups/nextcloud-20210218-235636.sql.gz | docker exec -i postgres psql --username=muwahhid --dbname=nextcloud -W
-  ```
   </Description>
   <Networking>
     <Mode>bridge</Mode>
