@@ -26,7 +26,7 @@ This is a template to customize with container "Jackett".&#xD;
   <Category>Network:Proxy</Category>
   <WebUI/>
   <TemplateURL>https://github.com/Muwahhidun/unraid-docker-templates/blob/main/my-openvpn-antizapret.xml</TemplateURL>
-  <Icon>https://github.com/Muwahhidun/logo/blob/main/vpnclientinside.png?raw=true</Icon>
+  <Icon>https://raw.githubusercontent.com/Muwahhidun/logo/main/openvpn-antizapret.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
