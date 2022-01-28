@@ -13,7 +13,7 @@
       The open source, multi-platform, self-hosted, feature packed web site for remote device management.
 </Overview>
   <Category/>
-  <WebUI>https://[IP]:[PORT:8086]</WebUI>
+  <WebUI>https://[IP]:[PORT:443]</WebUI>
   <TemplateURL>https://github.com/Muwahhidun/unraid-docker-templates/blob/main/my-meshcentral.xml</TemplateURL>
   <Icon>https://github.com/Muwahhidun/logo/blob/main/meshcentral-logo.png?raw=true</Icon>
   <ExtraParams/>
