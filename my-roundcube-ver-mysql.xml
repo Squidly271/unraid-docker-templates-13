@@ -15,7 +15,7 @@
     [b][span style='color: #E80000;']Before starting the container, please make sure that the supplied database exists and the given database user has privileges to create tables.[/span][/b][br]&#xD;
   </Overview>
   <Category>Network: Web:</Category>
-  <WebUI>http://[IP]:[PORT:1154]/</WebUI>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
   <TemplateURL>https://github.com/Muwahhidun/unraid-docker-templates/blob/main/my-roundcube-ver-mysql.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/Muwahhidun/logo/main/roundcube.png</Icon>
   <ExtraParams/>
