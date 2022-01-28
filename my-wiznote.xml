@@ -19,7 +19,7 @@ password: 123456&#xD;
 Please change the password after you finished the deployment. It can add five accounts in the free edition.&#xD;
 Russian translation of the app: https://github.com/Muwahhidun/wiznote-russian-language</Overview>
   <Category>Productivity:</Category>
-  <WebUI>http://[IP]:[PORT:888]</WebUI>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
   <TemplateURL>https://github.com/Muwahhidun/unraid-docker-templates/blob/main/my-wiznote.xml</TemplateURL>
   <Icon>https://github.com/Muwahhidun/logo/blob/main/wiznote-icon.png?raw=true</Icon>
   <ExtraParams/>
