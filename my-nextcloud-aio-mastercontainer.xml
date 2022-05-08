@@ -29,7 +29,7 @@ admin panel: https://serverIP:8181
   <Category>Cloud: Status:Stable</Category>
   <WebUI>http://[IP]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Muwahhidun/unraid-docker-templates/main/my-nextcloud-aio-mastercontainer.xml</TemplateURL>
-  <Icon>https://github.com/Muwahhidun/logo/blob/main/nextcloud-aio-logo.png</Icon>
+  <Icon>https://github.com/Muwahhidun/logo/raw/main/nextcloud-aio-logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
