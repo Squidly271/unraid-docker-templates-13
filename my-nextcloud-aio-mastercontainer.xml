@@ -24,7 +24,7 @@ Backup solution (based on BorgBackup)&#xD;
 OnlyOffice&#xD;
 ClamAV&#xD;
 &#xD;
-admin panel: https://serverIP:8181
+admin panel: https://serverIP:8080
 </Overview>
   <Category>Cloud: Status:Stable</Category>
   <WebUI>http://[IP]</WebUI>
@@ -51,7 +51,7 @@ Backup solution (based on BorgBackup)&#xD;
 OnlyOffice&#xD;
 ClamAV&#xD;
 &#xD;
-admin panel: https://serverIP:8181
+admin panel: https://serverIP:8080
   </Description>
   <Networking>
     <Mode>bridge</Mode>
