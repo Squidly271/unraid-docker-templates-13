@@ -29,7 +29,7 @@ admin panel: https://serverIP:8181
   <Category/>
   <WebUI/>
   <TemplateURL/>
-  <Icon/>
+  <Icon>https://github.com/Muwahhidun/logo/blob/main/nextcloud-aio-logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
