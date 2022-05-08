@@ -49,7 +49,10 @@ High performance backend for Nextcloud Files&#xD;
 High performance backend for Nextcloud Talk&#xD;
 Backup solution (based on BorgBackup)&#xD;
 OnlyOffice&#xD;
-ClamAV</Description>
+ClamAV&#xD;
+&#xD;
+admin panel: https://serverIP:8181
+  </Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
