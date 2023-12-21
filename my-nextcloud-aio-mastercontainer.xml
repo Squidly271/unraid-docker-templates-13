@@ -27,7 +27,7 @@ ClamAV&#xD;
 admin panel: https://serverIP:8080
 </Overview>
   <Category>Cloud: Status:Stable</Category>
-  <WebUI>http://[IP]</WebUI>
+  <WebUI>https://[IP]:[PORT:8080]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Muwahhidun/unraid-docker-templates/main/my-nextcloud-aio-mastercontainer.xml</TemplateURL>
   <Icon>https://github.com/Muwahhidun/logo/raw/main/nextcloud-aio-logo.png</Icon>
   <ExtraParams/>
